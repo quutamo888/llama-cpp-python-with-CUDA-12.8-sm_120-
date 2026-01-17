@@ -4,9 +4,17 @@ This repository contains scripts and instructions to install `llama-cpp-python` 
 
 ## 🚀 Quick Start in a New Project
 
-**Option 1: Use the Helper Script**
+**Option 1: Use the Pre-compiled Wheel (Fastest)**
+This repository includes a pre-compiled wheel file in the `wheels/` folder.
+1. Download this repo.
+2. Install directly:
+   ```powershell
+   uv pip install wheels/llama_cpp_python-0.3.16-cp310-cp310-win_amd64.whl
+   ```
+
+**Option 2: Use the Helper Script**
 1. Copy `install_llama_gpu.ps1` to your new project folder.
-2. Run it inside your `uv` environment (or any venv):
+2. Run it inside your `uv` environment:
    ```powershell
    .\install_llama_gpu.ps1
    ```
