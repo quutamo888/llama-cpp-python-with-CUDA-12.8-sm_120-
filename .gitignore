@@ -4,3 +4,4 @@ wheels/
 *.pyc
 .idea/
 .vscode/
+!wheels/
